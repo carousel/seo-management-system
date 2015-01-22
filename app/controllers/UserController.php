@@ -41,7 +41,8 @@ class UserController extends \BaseController {
     //logout
     public function getLogout()
     {
-        Auth::logout();
+        $user = Auth::user();
+        Auth::logout($user);
         return Redirect::to("login")
             ->with("logout","You are now logged out");
         

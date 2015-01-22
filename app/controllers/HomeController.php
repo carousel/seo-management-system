@@ -10,7 +10,8 @@ class HomeController extends BaseController {
             ->with("role",$role);
         
         }
-            return View::make("home.index");
+        return Redirect::to("/login")
+            ->withErrors("Please try again");
         
     }
 
