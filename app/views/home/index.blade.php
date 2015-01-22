@@ -7,6 +7,7 @@
                 {{link_to("/admin","Admin Panel",["class"=>"btn btn-danger"])}}
             @endif
             {{link_to("logout","Logout")}}
+            {{link_to("/","Home")}}
 
         </div>
     </div>

@@ -25,3 +25,12 @@ li.error{
 .user-area{
     margin-top:5%;
 }
+select{
+    border-radius:30px!important;
+}
+input{
+    border-radius:30px!important;
+}
+.btn{
+    border-radius:30px!important;
+}
